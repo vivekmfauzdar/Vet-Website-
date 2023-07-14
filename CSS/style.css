@@ -1,0 +1,349 @@
+
+/* nav bar */
+
+#top_nav
+{
+    background-color: #daac00;
+    padding: 0 8%;
+}
+
+.nav-link
+{
+    font-weight: 600;
+    color: rgb(255 255 255);
+}
+
+#searchbox
+{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    box-shadow: 5px 10px 11px 0px #00000021;
+    left: 45px;
+}
+
+#searchbox::placeholder
+{
+    color: white;
+}
+
+#searchbtn
+{
+    background-color: rgb(55, 55, 238);
+    color: white;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+@media only screen and (max-width: 820px)
+{
+     #searchform
+     {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -50px;
+     }
+}
+
+@media only screen and (max-width: 500px)
+{
+
+    #top_nav
+    {
+        padding: 20px;
+    }
+    .img-fluid
+    {
+        width: 200px;
+    }
+}
+
+
+#slider-section
+{
+    padding-bottom: 50px;
+}
+
+/* dog image */
+#dog-image
+{
+    width: 600px;
+}
+
+#bannertext h1
+{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+#bannertext p
+{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contactbtn
+{
+    background-color: rgb(4, 219, 123);
+    border-radius: 5px;
+    border: 2px solid rgb(4, 219, 123);
+    color: white;
+    
+}
+
+#servicesbtn
+{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1230px)
+{
+    #dog-image
+{
+    margin-top: 80px;
+    width: 800px;
+}
+
+}
+
+@media only screen and (max-width: 1080px)
+{
+    #bannertext h1
+    {
+        font-size: 45px;
+    }
+
+    #dog-image
+    {
+        margin-top: 100px;
+        max-width: 300px;
+
+    }
+
+
+}
+
+#service-image img
+{
+    width: 400px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#service-img
+{
+    padding: 10%;
+
+}
+
+#service-text
+{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#service-text p
+{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#service-btn
+{
+    background-color: #fcc302;
+    border-radius: 5px;
+    border: 2px solid #fcc302;
+    color: white;
+}
+
+@media only screen and (max-width: 2000px)
+{
+
+    #service-image img
+    {
+        padding-top: 100px;
+    }
+}
+
+/* counter section */
+#counter-section
+{
+    background-image: url(../vet-bg.jpg);
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.counter-icon
+{
+    font-size: 60px;
+}
+
+/* blog section */
+
+.para
+{
+    font-size: 18px;
+}
+
+#blog-title
+{
+    font-size: 62px;
+    font-weight: 800;
+}
+
+#blog-p
+{
+    font-size: 22px;
+    
+}
+
+.readmorebtn
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog-section
+{
+    box-shadow: -1px 2px 8px #888888;
+    margin: 15px;
+
+}
+
+@media only screen and (max-width: 500px)
+{
+
+    .blog-section img
+    {
+ 
+        width: fit-content;
+
+    }
+
+    .blog-section{
+    box-shadow: -1px 2px 8px #888888;
+    margin-top: 10px;
+   }
+
+   #blog-title
+{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#blog-p
+{
+    font-size: 17px;
+    
+}
+}
+
+
+/* footer section */
+
+#newlettermail
+{
+   background-color: #daac00;
+   border: 0;
+   padding: 15px;
+   width: 100%;
+   max-width: 250px;
+   position: relative;
+   left: 5px;
+
+}
+
+#btnsend
+{
+    z-index: 2;
+    border: none;
+    border-radius: 0;
+    padding: 15px 40px;
+    color: white;
+
+    background-color: rgb(5, 181, 181);
+}
+
+#newletter-form
+{
+   
+}
+
+
+.socials
+{
+    margin-top: 20px;
+}
+
+.socials i
+{
+    background-color: white;
+    color: black;
+    background-color: white;
+    width: 25px;
+  height: 25px;
+  border-radius: 50%;
+    
+}
+
+@media only screen and (max-width: 1150px)
+{
+    #newlettermail
+    {
+      
+       max-width: 150px;
+      
+    }
+
+}
+
+@media only screen and (max-width: 850px)
+{
+    #newlettermail
+    {
+      
+       max-width: 128px;
+      
+    }
+
+}
+
+@media only screen and (max-width: 500px)
+{
+    #newlettermail
+    {
+      
+       max-width: 197px;
+      
+    }
+
+    #footer h5
+    {
+        padding-top: 50px;
+    }
+
+}
+
+
+
+
